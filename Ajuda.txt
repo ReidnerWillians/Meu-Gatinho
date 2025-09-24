@@ -1,0 +1,24 @@
+TAGS SEMANTICAS HTML: para ajudar na compreensão e apresentação da pagina.
+
+header - Cabeçalho
+
+h1 - Título - recomendado usar um só h1 por página.
+h2 até h6 - subtítulos
+
+p - paragrafo
+
+img - imagem
+
+
+main - Pagina principal
+
+    section - seções na Pagina
+
+        article = divisoes dentro da section
+
+            section - pode ter dentro dos artigos tambem.
+
+
+
+figure - pode ser usada em qualquer lugar pra colocar uma 'img' dentro
+
