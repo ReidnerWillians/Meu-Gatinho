@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Reidner Wilians">
     <meta name="description" content="Um site para quem ama gatos e quer aprender sobre eles.">
-    <title>App Meu Gatinho</title>
+    <title>Formulário</title>
     <link rel="icon" href=/img/favicon-32x32.png>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -16,16 +16,73 @@
         <h1>App Meu Gatinho 🐱</h1>
         <nav aria-label="Navegação primaria">
             <ul>
+                <li><a href="index.html">Principal</a></li>
                 <li><a href="/fotosDeGatos.html">Fatos sobre gatos</a></li>
-                <li><a href="#gostam">Coisas que os gatos gostam</a></li>
-                <li><a href="#odeiam">Coisas que os gatos odeiam</a></li>
-                <li><a href="/formularioFelino.html">Colabore com o APP</a></li>
             </ul>
         </nav>
         <hr>
     </header>
     <main>
-        
+        <article id="formulario">
+            <h2>Formulário Felino</h2>
+            <p>Responda essa pesquisa e nos ajude a entender mais sobre esses animais</p>
+            <p>PS: Se voce quiser, pode anexar uma foto do seu gato para fazer parte de nossa galaeria.</p>
+        </article>
+        <form action="#">
+            <fieldset>
+                <legend>Infirmações sobre seu gato</legend>
+                <p>
+                    <label for="nomegato">Qual o nome do seu gato</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o nome do seu gato" autocomplete="on"
+                        required autofocus>
+                </p>
+
+                <p>
+                    <label for="quantos">Quantos gatos você tem?</label>
+                    <input type="number" name="quantos" id="quantos" step="1" value="1" required>
+                </p>
+
+                <p>Seu gato(a) fica dentro de casa ou tem acesso à rua?</p>
+                <p>
+                    <input type="radio" name="ambiente" id="dentro" value="dentro" checked>
+                    <label for="dentro">Dentro de casa</label>
+                </p>
+                <p>
+                    <input type="radio" name="ambiente" id="fora" value="fora">
+                    <label for="fora">Fora de casa</label>
+                </p>
+                <p>Como é a personalidade do seu gato? </p>
+                <input type="checkbox" name="manhoso" id="manhoso">
+                <label for="manhoso">Manhoso</label>
+                <p>
+                    <input type="checkbox" name="brincalhao" id="brincalhao">
+                    <label for="brincalhao">Brincalhão</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="sociavel" id="sociavel">
+                    <label for="sociavel">Sociável</label>
+                </p>
+                <p><input type="checkbox" name="dorminhoco " id="dorminhoco">
+                    <label for="dorminhoco">Dorminhoco</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Seu gato na nossa galeria</legend>
+                <p>Anexe uma foto paara nossa equipe adicionar na galeria</p>
+                <input type="file" name="anexo " id="anexo">
+                <p>
+                    <label for="mensagem">Legenda da foto</label>
+                </p>
+                <textarea name="mensagem" id="mensagem" placeholder="Insira a legenda da sua foto aqui" cols="30"
+                    rows="10"></textarea>
+            </fieldset>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+
         <p><a href="#">Voltar ao topo</a></p>
     </main>
     <footer>
