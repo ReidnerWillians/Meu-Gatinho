@@ -42,6 +42,32 @@ a {
     font-weight: bold;
 }
 
+/* fotos */
+
+#fotos {
+    text-align: center;
+    margin: 20px;
+}
+
+#fatos{
+    text-align: center;
+    margin: 20px;
+}
+
+#odeiam{
+    text-align: center;
+    margin: 20px; 
+    list-style: none
+}
+
+.gostam{
+    list-style: none;
+}
+
+#colabore {
+    text-align: center;
+    margin: 20px;
+}
 /*Galeria de Fotos*/
 
 img {
@@ -80,6 +106,13 @@ footer {
     border-top: 1px solid #ccc;
 }
 
+p a{
+    align-items: center;
+}
 
+#voltar {
+    text-align: center;
+    margin: 20px;
+} 
 
 
