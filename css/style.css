@@ -115,4 +115,29 @@ p a{
     margin: 20px;
 } 
 
+#formulario {
+    text-align: center;
+    margin: 30px;
+}
+
+fieldset{
+    margin: 30 auto;
+    padding-left: 80px;
+    text-align: left;
+}
+
+#botoes {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#anexar {
+    margin-top: 20px;
+}
+
+#anexar legend {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 

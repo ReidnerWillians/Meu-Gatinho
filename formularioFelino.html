@@ -28,9 +28,9 @@
             <p>Responda essa pesquisa e nos ajude a entender mais sobre esses animais</p>
             <p>PS: Se voce quiser, pode anexar uma foto do seu gato para fazer parte de nossa galaeria.</p>
         </article>
-        <form action="#">
-            <fieldset>
-                <legend>Infirmações sobre seu gato</legend>
+        <form action="#" id="formulario">
+            <fieldset id="anexar">
+                <legend>Informações sobre seu gato😸</legend>
                 <p>
                     <label for="nomegato">Qual o nome do seu gato</label>
                     <input type="text" name="nome" id="nome" placeholder="Digite o nome do seu gato" autocomplete="on"
@@ -67,9 +67,9 @@
                 </p>
             </fieldset>
 
-            <fieldset>
-                <legend>Seu gato na nossa galeria</legend>
-                <p>Anexe uma foto paara nossa equipe adicionar na galeria</p>
+            <fieldset id="anexar">
+                <legend>Seu gato na nossa galeria😸</legend>
+                <p>Anexe uma foto para nossa equipe adicionar na galeria</p>
                 <input type="file" name="anexo " id="anexo">
                 <p>
                     <label for="mensagem">Legenda da foto</label>
@@ -77,13 +77,13 @@
                 <textarea name="mensagem" id="mensagem" placeholder="Insira a legenda da sua foto aqui" cols="30"
                     rows="10"></textarea>
             </fieldset>
-            <div>
+            <div id="botoes">
                 <button type="submit">Enviar</button>
                 <button type="reset">Limpar</button>
             </div>
         </form>
 
-        <p><a href="#">Voltar ao topo</a></p>
+        <p id="voltar"><a href="#">Voltar ao topo</a></p>
     </main>
     <footer>
         <p>&lt; &copy; Copyright App Meu Gatinho. &gt;</p>
